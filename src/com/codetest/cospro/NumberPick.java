@@ -1,7 +1,6 @@
 package com.codetest.cospro;
 
 import java.util.Arrays;
-import java.util.Stack;
 
 /**
  * Cos Pro 숫자 뽑기(프로그래머스)

@@ -15,11 +15,7 @@ public class Garden {
         List<Point> pList = new ArrayList<Point>();
         int cnt = 0;
         int size = 0;
-        for (int[] i : garden) {
-            for (int j : i) {
-                size++;
-            }
-        }
+        size = garden.length * garden.length;
         for (int i = 0; i < garden.length; i++) {
             for (int j = 0; j < garden[i].length; j++) {
                 if (garden[i][j] == 1) {
